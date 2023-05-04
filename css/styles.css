@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
 h1,
 h2,
 h3,
@@ -41,7 +46,20 @@ ul {
   padding-right: 15px;
 }
 
+section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 /* Header */
+
+.header {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 
 .header .container {
   display: flex;
@@ -53,25 +71,18 @@ ul {
 
 .header-logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
 }
 
-.header-logo span {
+.header-logo-span {
   color: #2196f3;
 }
 
 .nav-list {
   display: flex;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
 }
 
 .nav-list-item:not(:last-child) {
@@ -84,24 +95,17 @@ ul {
 
 .header-contact {
   display: flex;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  align-items: center;
 }
 
 .header-contact-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   color: #757575;
 }
 
+.header-contact-item a {
+  display: flex;
+  align-items: center;
+}
 .header-contact-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -118,9 +122,14 @@ ul {
 /* Hero section */
 
 .hero-section {
-  max-width: 100%;
+  max-width: 1600px;
   height: 600px;
-  background-image: url("../images/hero-image.png");
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero-image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -128,13 +137,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
-  background-color: rgba(47, 48, 58, 0.4);
 }
 
 .hero-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -155,4 +160,10 @@ ul {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
 }
