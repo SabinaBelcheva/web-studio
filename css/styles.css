@@ -40,8 +40,7 @@ ul {
 }
 
 .container {
-  width: 1200px;
-  margin: 0 auto;
+  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -64,9 +63,17 @@ section {
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+.header-logo-studio {
+  margin-left: 215px;
+  margin-right: 93px;
+}
+
+.header-nav {
+  margin-right: 318px;
 }
 
 .header-logo {
@@ -106,6 +113,7 @@ section {
   display: flex;
   align-items: center;
 }
+
 .header-contact-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -166,4 +174,31 @@ section {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
+}
+
+/* Cекцiя Переваги */
+.advantages-section {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantages-svg {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.advantages-subtitle {
+}
+.advantages-text {
 }
