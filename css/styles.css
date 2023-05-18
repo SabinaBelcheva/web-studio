@@ -96,7 +96,8 @@ section {
   margin-right: 50px;
 }
 
-.nav-list-item:hover {
+.nav-list-item:hover,
+.nav-list-item:focus {
   color: #2196f3;
 }
 
@@ -130,7 +131,6 @@ section {
 /* Hero section */
 
 .hero-section {
-  /* max-width: 1600px; */
   height: 600px;
   background-image: linear-gradient(
       to right,
@@ -230,6 +230,26 @@ section {
   margin-right: 30px;
 }
 
+.doings-thumb {
+  position: relative;
+}
+
+.doings-thumb-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 /* Секція Наша команда */
 
 .team-section {
@@ -300,7 +320,8 @@ section {
   justify-content: center;
 }
 
-.social-icons-link:hover {
+.social-icons-link:hover,
+.social-icons-link:focus {
   background-color: #2196f3;
 }
 
@@ -426,7 +447,8 @@ section {
   justify-content: center;
 }
 
-.footer-social-icons-link:hover {
+.footer-social-icons-link:hover,
+.footer-social-icons-link:focus {
   background-color: #2196f3;
 }
 
