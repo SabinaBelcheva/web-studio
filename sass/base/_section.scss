@@ -1,0 +1,204 @@
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+/* Cекцiя Переваги */
+
+.advantages-section {
+}
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantages-image {
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  border-radius: 4px;
+}
+
+.advantages-subtitle {
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.advantages-text {
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Секція Чим ми займаємося */
+
+.doings-subtitle {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.doings-list {
+  display: flex;
+}
+
+.doings-list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.doings-thumb {
+  position: relative;
+}
+
+.doings-thumb-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Секція Наша команда */
+
+.team-section {
+  background: #f5f4fa;
+}
+
+.team-subtitle {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-item {
+  height: 428px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-list-image {
+  margin-bottom: 30px;
+}
+
+.team-list-item h4 {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.team-list-item p {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-bottom: 16px;
+}
+
+.team-icons-list {
+  display: flex;
+}
+
+.social-icons-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons-link:hover,
+.social-icons-link:focus {
+  background-color: #2196f3;
+}
+
+.social-icon {
+  fill: #afb1b8;
+}
+
+.social-icons-link:hover .social-icon {
+  fill: #fff;
+}
+
+/* Секція Постійні клієнти */
+
+.customers-subtitle {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.customers-list {
+  display: flex;
+}
+
+.customers-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.customer-list-item-link {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-list-item-link:hover,
+.customer-list-item-link:focus {
+  border: 1px solid #2196f3;
+}
+
+.customer-list-item-link:hover svg {
+  fill: #2196f3;
+}
+
+.customer-list-item-link svg {
+  fill: #afb1b8;
+}

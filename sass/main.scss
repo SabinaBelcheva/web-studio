@@ -1,5 +1,13 @@
 @import "./utils/variables";
+
 @import "./base/reset";
+@import "./base/common";
+@import "./base/container";
+@import "./base/section";
+
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/hero";
 
 @import "./components/backdrop";
 @import "./components/modal-form";
