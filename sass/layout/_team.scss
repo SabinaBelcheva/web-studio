@@ -1,0 +1,83 @@
+/* Секція Наша команда */
+
+.team-section {
+    background: #f5f4fa;
+  }
+  
+  .team-subtitle {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .team-list {
+    display: flex;
+  }
+  
+  .team-list > li:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .team-list-item {
+    height: 428px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .team-list-image {
+    margin-bottom: 30px;
+  }
+  
+  .team-list-item h4 {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+  
+  .team-list-item p {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+  }
+  
+  .team-icons-list {
+    display: flex;
+  }
+  
+  .social-icons-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icons-link:hover,
+  .social-icons-link:focus {
+    background-color: #2196f3;
+  }
+  
+  .social-icon {
+    fill: #afb1b8;
+  }
+  
+  .social-icons-link:hover .social-icon {
+    fill: #fff;
+  }
+  

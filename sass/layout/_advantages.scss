@@ -1,0 +1,33 @@
+/* Cекцiя Переваги */
+
+.advantages-section {
+}
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantages-image {
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  border-radius: 4px;
+}
+
+.advantages-subtitle {
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.advantages-text {
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

@@ -1,0 +1,42 @@
+
+/* Секція Постійні клієнти */
+
+.customers-subtitle {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+  
+  .customers-list {
+    display: flex;
+  }
+  
+  .customers-list > li:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .customer-list-item-link {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .customer-list-item-link:hover,
+  .customer-list-item-link:focus {
+    border: 1px solid #2196f3;
+  }
+  
+  .customer-list-item-link:hover svg {
+    fill: #2196f3;
+  }
+  
+  .customer-list-item-link svg {
+    fill: #afb1b8;
+  }
+  
