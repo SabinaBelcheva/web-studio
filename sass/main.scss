@@ -1,20 +1,20 @@
-@import "./utils/variables";
+@import './utils/variables';
 
-@import "./base/reset";
-@import "./base/common";
-@import "./base/container";
-@import "./base/section";
+@import './base/reset';
+@import './base/common';
+@import './base/container';
+@import './base/section';
 
-@import "./layout/footer";
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/advantages";
-@import "./layout/customers";
-@import "./layout/portfolio";
-@import "./layout/portfolio";
-@import "./layout/task";
-@import "./layout/team";
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/customers';
+@import './layout/portfolio';
+@import './layout/task';
+@import './layout/team';
 
-@import "./components/backdrop";
-@import "./components/modal-form";
-@import "./components/modal-windows";
+@import './components/backdrop';
+@import './components/modal-form';
+@import './components/modal-windows';
+@import './components/mobile-menu';

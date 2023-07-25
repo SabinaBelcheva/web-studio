@@ -2,42 +2,17 @@
   transform: translate(-50px, -50%) scale(0);
 }
 
-.modal-title {
-  color: #212121;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.6px;
-}
+/* Form */
 
 .modal-form {
   position: relative;
 }
 
-.modal-label {
-}
-
 .modal-input-title {
-  color: #757575;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
-}
-
-.button-close {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-form-div {
-}
-
-.modal-form-label {
-}
-
-.modal-form-field {
+  color: $mainTextColor;
 }
 
 .modal-form-input {
@@ -67,6 +42,8 @@
   fill: $linkColor;
 }
 
+/* Comment */
+
 .modal-form-input-comment {
   resize: none;
   padding: 12px 16px;
@@ -76,9 +53,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.modal-form-checkbox-input {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .checkbox-title {
@@ -98,12 +74,24 @@
   text-decoration-line: underline;
 }
 
-.modal-buttom {
+.modal-button {
   width: 200px;
   height: 50px;
   flex-shrink: 0;
 
   border-radius: 4px;
-  background: #188ce8;
+  background: $linkColor;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  padding: 10px 52px;
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
 }

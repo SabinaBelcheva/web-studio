@@ -32,12 +32,13 @@
             <use href="/images/symbol-defs.svg#icon-menu"></use>
           </svg>
         </button>
+
         <ul class="header-contact">
           <li class="header-contact-item">
             <a href="mailto:info@devstudio.com">
               <!-- prettier-ignore-start -->
               <svg width="16" height="12" class="header-contact-icon">
-                <use href="./images/symbol-header.svg#icon-convert"></use>
+                <use href="./images/symbol-header.svg#icon-close"></use>
               </svg>
               <!-- prettier-ignore-end -->
               info@devstudio.com</a
@@ -55,10 +56,57 @@
           </li>
         </ul>
       </div>
+
       <!-- Mobile menu -->
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button class="mobile-menu__close-btn" type="text" data-menu-close>
+            <svg width="40" height="40">
+              <use class="icon-burger" href="./images/symbol-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="menu">
+            <ul class="mobile-list">
+              <li class="mobile-item">
+                <a class="mobile-link" href="">Студія</a>
+              </li>
+              <li class="mobile-item">
+                <a class="mobil-link" href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="mobile-item">
+                <a class="mobile-link" href="">Контакти</a>
+              </li>
+            </ul>
+            <ul class="mobile-list-contact">
+              <li class="mobile-contact-item">
+                <a href="tel:+380961111111"> +38 096 111 11 11</a>
+              </li>
+              <li class="mobile-contact-item">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="mobile-social-list">
+              <li class="mobile-social-item">
+                <a href="https://www.instagram.com/" class="mobile-social-link">Instagram</a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Dru" class="mobile-social-link">Twitter</a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="https://uk-ua.facebook.com/" class="mobile-social-link">Facebook</a>
+              </li>
+              <li class="mobile-social-item">
+                <a href="https://linkedin.com/in/vylegzhanins/" class="mobile-social-link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Секцiя main -->
+
     <main>
       <!-- hero -->
       <section class="hero-section">
@@ -443,7 +491,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="button-close" data-modal-close>
-          <svg class="modal-icon" width="18px" height="18px">
+          <svg width="18px" height="18px">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
@@ -459,6 +507,8 @@
                 </svg>
               </div>
             </label>
+          </div>
+          <div class="modal-form">
             <label class="modal-form-label">
               <span class="modal-input-title">Телефон</span>
               <div class="modal-form-field">
@@ -468,6 +518,8 @@
                 </svg>
               </div>
             </label>
+          </div>
+          <div class="modal-form">
             <label class="modal-form-label">
               <span class="modal-input-title">Пошта</span>
               <div class="modal-form-field">
@@ -477,20 +529,20 @@
                 </svg>
               </div>
             </label>
-            <label class="modal-form-label">
-              <span class="modal-input-title">Коментар</span>
-              <div class="modal-form-field">
-                <textarea class="modal-form-input-comment" type="text" placeholder="Введіть текст"></textarea>
-              </div>
-            </label>
-            <label class="modal-form-checkbox-label">
-              <div class="modal-form-field">
-                <input class="modal-form-checkbox-input" type="checkbox" name="agreement" />
-                <span class="checkbox-title">Погоджуюся з розсилкою та приймаю <a class="checkbox-link" href="#">Умови договору</a></span>
-              </div>
-            </label>
-            <button class="modal-buttom" type="submit">Відправити</button>
           </div>
+          <label class="modal-form-label">
+            <span class="modal-input-title">Коментар</span>
+            <div class="modal-form-field">
+              <textarea class="modal-form-input-comment modal-form-input" type="text" placeholder="Введіть текст" rows="5"></textarea>
+            </div>
+          </label>
+          <label class="modal-form-checkbox-label">
+            <div class="modal-form-field">
+              <input class="modal-form-checkbox-input" type="checkbox" name="agreement" />
+              <span class="checkbox-title">Погоджуюся з розсилкою та приймаю <a class="checkbox-link" href="#">Умови договору</a></span>
+            </div>
+          </label>
+          <button class="modal-button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
