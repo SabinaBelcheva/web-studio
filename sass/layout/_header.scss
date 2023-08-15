@@ -27,22 +27,83 @@
   color: #2196f3;
 }
 
-/* Nav */
+.header {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-nav {
+  margin-right: 318px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-list-item a {
+  padding-bottom: 28px;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: #2196f3;
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact-item {
+  color: #757575;
+}
+
+.header-contact-item a {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-contact-item:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.header-contact-icon {
+  margin-right: 10px;
+}
 
 .burger__button {
   border: none;
   background-color: transparent;
 }
 
-//@media screen and (max-widht: 767px) {
-.nav-list {
-  display: none;
-}
+/* Nav */
 
-.header-contact {
-  display: none;
+@media screen and (max-widht: 767px) {
+  .nav-list {
+    display: none;
+  }
+
+  .header-contact {
+    display: none;
+  }
+
+  .burger__button {
+    border: none;
+    background-color: transparent;
+  }
 }
-//}
 
 @media screen and (min-widht: 768px) {
   .nav-list {
@@ -109,60 +170,8 @@
   .contact-item:not(:last-child) {
     margin-right: 10px;
   }
-}
 
-.header {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
-.header-nav {
-  margin-right: 318px;
-}
-
-.nav-list {
-  display: flex;
-}
-
-.nav-list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.nav-list-item a {
-  padding-bottom: 28px;
-}
-
-.nav-list-item:hover,
-.nav-list-item:focus {
-  color: #2196f3;
-}
-
-.header-contact {
-  display: flex;
-  align-items: center;
-}
-
-.header-contact-item {
-  color: #757575;
-}
-
-.header-contact-item a {
-  display: flex;
-  align-items: center;
-}
-
-.header-contact-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.header-contact-item:hover {
-  color: #2196f3;
-  fill: #2196f3;
-}
-
-.header-contact-icon {
-  margin-right: 10px;
+  .burger__button {
+    display: none;
+  }
 }

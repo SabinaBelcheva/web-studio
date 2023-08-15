@@ -5,14 +5,14 @@
 @import './base/container';
 @import './base/section';
 
-@import './layout/footer';
 @import './layout/header';
 @import './layout/hero';
 @import './layout/advantages';
-@import './layout/customers';
-@import './layout/portfolio';
 @import './layout/task';
 @import './layout/team';
+@import './layout/customers';
+@import './layout/portfolio';
+@import './layout/footer';
 
 @import './components/backdrop';
 @import './components/modal-form';
