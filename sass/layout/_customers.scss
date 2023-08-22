@@ -1,42 +1,70 @@
-
 /* Секція Постійні клієнти */
 
 .customers-subtitle {
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $titleColor;
+  margin-bottom: 30px;
+}
+
+.customers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.customers-list-item {
+  flex-basis: calc((100% - 2 * 30px) / 2);
+}
+
+.customer-list-item-link {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-list-item-link:hover,
+.customer-list-item-link:focus {
+  border: 1px solid #2196f3;
+}
+
+.customer-list-item-link:hover svg {
+  fill: #2196f3;
+}
+
+.customer-list-item-link svg {
+  fill: #afb1b8;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+  .customer-list-item {
+    flex-basis: calc((100% - 3 * 30px) / 3);
   }
-  
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1200px) {
   .customers-list {
     display: flex;
+    flex-wrap: nowrap;
   }
-  
-  .customers-list > li:not(:last-child) {
-    margin-right: 30px;
+
+  .customer-list-item {
+    flex-basis: auto;
   }
-  
-  .customer-list-item-link {
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    padding: 16px 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .customers-subtitle {
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
   }
-  
-  .customer-list-item-link:hover,
-  .customer-list-item-link:focus {
-    border: 1px solid #2196f3;
-  }
-  
-  .customer-list-item-link:hover svg {
-    fill: #2196f3;
-  }
-  
-  .customer-list-item-link svg {
-    fill: #afb1b8;
-  }
-  
+}

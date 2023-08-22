@@ -28,7 +28,7 @@
 
 /* Nav */
 
-@media screen and (max-widht: 767px) {
+@media screen and (max-width: 767px) {
   .header-nav {
     display: none;
   }
@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
   .header {
     font-family: 'Roboto';
     font-weight: 500;
@@ -122,44 +122,44 @@
 
 /* Desktop */
 
-// @media screen and (min-widht: 1200px) {
-//   .header-nav {
-//     margin-right: 318px;
-//   }
+@media screen and (min-width: 1200px) {
+  .header-nav {
+    margin-right: 318px;
+  }
 
-//   .header-contact {
-//     display: flex;
-//     align-items: center;
-//   }
+  .header-contact {
+    display: flex;
+    align-items: center;
+  }
 
-//   .contact {
-//     display: flex;
-//     align-items: center;
-//   }
+  .contact {
+    display: flex;
+    align-items: center;
+  }
 
-//   .contact-item:not(:last-child) {
-//     margin-right: 10px;
-//   }
+  .contact-item:not(:last-child) {
+    margin-right: 10px;
+  }
 
-//   .burger__button {
-//     display: none;
-//   }
+  .burger__button {
+    display: none;
+  }
 
-//   .header-contact-item a {
-//     display: flex;
-//     align-items: center;
-//   }
+  .header-contact-item a {
+    display: flex;
+    align-items: center;
+  }
 
-//   .header-contact-item:not(:last-child) {
-//     margin-right: 30px;
-//   }
+  .header-contact-item:not(:last-child) {
+    margin-right: 30px;
+  }
 
-//   .header-contact-item:hover {
-//     color: #2196f3;
-//     fill: #2196f3;
-//   }
+  .header-contact-item:hover {
+    color: #2196f3;
+    fill: #2196f3;
+  }
 
-//   .header-contact-icon {
-//     margin-right: 10px;
-//   }
-// }
+  .header-contact-icon {
+    margin-right: 10px;
+  }
+}
