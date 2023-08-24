@@ -2,6 +2,8 @@
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-box {
@@ -22,6 +24,10 @@
 
 .footer-logo-studio {
   margin-bottom: 20px;
+}
+
+.footer-contacts {
+  margin-bottom: 60px;
 }
 
 .footer-contact-item {
@@ -45,6 +51,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .footer-joing-title {
@@ -57,9 +64,6 @@
 
 .footer-joing-list {
   display: flex;
-}
-
-.footer-joing-item {
 }
 
 .footer-joing-item:not(:last-child) {
@@ -97,14 +101,6 @@
   align-items: center;
 }
 
-.submit-input::placeholder {
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .submit-input {
   width: 358px;
   height: 50px;
@@ -115,6 +111,15 @@
   background-color: #2f303a;
   color: #fff;
   padding-left: 16px;
+  margin-bottom: 20px;
+
+  &::placeholder {
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer-button {
@@ -142,6 +147,11 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
+    margin-bottom: 60px;
+  }
+
+  .footer-contacts {
+    margin-bottom: 0;
   }
 }
 
@@ -151,7 +161,28 @@
   .footer-box {
     flex-direction: row;
   }
+
   .footer-contacts {
     margin-right: 70px;
+    margin-bottom: 0;
+  }
+
+  .footer-joing-title {
+    text-align: left;
+  }
+
+  .footer-box-tablet {
+    margin-bottom: 0;
+  }
+
+  .submit-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .submit-input {
+    margin-bottom: 0;
   }
 }
