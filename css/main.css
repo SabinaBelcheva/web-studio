@@ -609,9 +609,6 @@ img {
 .projects-thumb {
   position: relative;
   overflow: hidden;
-}
-
-.projects-image {
   margin-bottom: 20px;
 }
 
@@ -632,6 +629,7 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   margin: 0 24px;
+  margin-bottom: 20px;
 }
 
 .project-text-overlay {
