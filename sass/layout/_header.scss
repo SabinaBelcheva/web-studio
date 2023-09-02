@@ -50,6 +50,15 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .nav-list-link {
+    position: relative;
+    display: block;
+    padding-bottom: 32px;
+    padding-top: 32px;
   }
 
   .burger__button {
