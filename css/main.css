@@ -35,6 +35,17 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+
 .container {
   margin: 0 auto;
   padding-left: 15px;
@@ -747,6 +758,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 .footer-joing-list {
